@@ -4,12 +4,16 @@ import Product from "../Product/Product";
 
 const Products = () => {
     const [products, setProducts] = useState([]);
+    const[selectedCategory, setSelectedCategory] = useState('Saree')
+
     useEffect(() => {
         fetch('allProducts.json')
         .then(res => res.json())
         .then(data => setProducts(data));
     },[])
 
+    //check products category = selectedCategory filtering
+    const filterProduct = products.filter(item => item.category.toLowerCase() === selectedCategory.toLocaleLowerCase())
 
     return (
         <div className="container mx-auto my-12">
@@ -18,32 +22,67 @@ const Products = () => {
                     <h2 className="font-bold text-2xl">Choose Your Products</h2>
                 </div>
                 <div className="flex flex-wrap gap-3">
-                    <button className="px-9 py-2 rounded-lg bg-indigo-500 text-white font-semibold tracking-wider">
-                    Sari
+                    <button 
+                        onClick={() => setSelectedCategory('Saree')}
+                        className={`px-9 py-2 rounded-lg font-semibold tracking-wider transition duration-300 ${
+                            selectedCategory === 'Saree' 
+                                ? "bg-indigo-500 text-white" 
+                                : "bg-transparent border border-indigo-500 text-black"
+                        }`}
+                    >
+                        Saree
                     </button>
 
-                    <button className="px-9 py-2 rounded-lg border border-blue-600 text-black font-semibold tracking-wider">
+                    <button 
+                        onClick={() => setSelectedCategory('Jama')}
+                        className={`px-9 py-2 rounded-lg font-semibold tracking-wider transition duration-300 ${
+                            selectedCategory === 'Jama' 
+                                ? "bg-indigo-500 text-white" 
+                                : "bg-transparent border border-indigo-500 text-black"
+                        }`}
+                    >
                         Jama
                     </button>
 
-                    <button className="px-9 py-2 rounded-lg border border-blue-600 text-black font-semibold tracking-wider">
+                    <button
+                        onClick={() => setSelectedCategory('Jewelry')}
+                        className={`px-9 py-2 rounded-lg font-semibold tracking-wider ${
+                                selectedCategory === 'Jewelry' 
+                                ? "bg-indigo-500 text-white" 
+                                : "bg-transparent border border-indigo-500 text-black"
+
+                                }`}>
                         Jewelry
                     </button>
 
-                    <button className="px-9 py-2 rounded-lg border border-blue-600 text-black font-semibold tracking-wider">
+                    <button 
+                    
+                     onClick={() => setSelectedCategory('Shoes')}
+                        className={`px-9 py-2 rounded-lg font-semibold tracking-wider ${
+                                    selectedCategory === 'Shoes'
+                                     ? "bg-indigo-500 text-white" 
+                                     : "bg-transparent border border-indigo-500 text-black"
+                                }`}>
                         Shoes
                     </button>
 
-                    <button className="px-9 py-2 rounded-lg border border-blue-600 text-black font-semibold tracking-wider">
+                    <button 
+                        onClick={() => setSelectedCategory('Kids')}
+                        className={`px-9 py-2 rounded-lg font-semibold tracking-wider ${
+                                    selectedCategory === 'Kids'
+                                    ? "bg-indigo-500 text-white" 
+                                    : "bg-transparent border border-indigo-500 text-black"
+                                }`}>
                         Kids
                     </button>
+                    <button className="px-9 py-2 rounded-lg font-semibold tracking-wider ml-6 bg-indigo-500 text-white shadow">Selected Product</button>
                 </div>
             </div>
              
 
                <div className="grid grid-cols-3 gap-8 mt-8">
                  {
-                    products.map(product => <Product key={product.id} product={product}></Product>)
+                    filterProduct.map(product => <Product key={product.id} product={product}></Product>)
                 }
                </div>
         </div>
