@@ -1,0 +1,336 @@
+[
+  {
+    "id": 1,
+    "name": "Dhakai Jamdani Saree",
+    "category": "Saree",
+    "price": 4500,
+    "quantity": 15,
+    "image": "https://i.ibb.co.com/1YzB16jC/image.png",
+    "color": "Red",
+    "rating": 4.8,
+    "description": "Authentic hand-woven Dhakai Jamdani saree symbolizing tradition and elegance."
+  },
+  {
+    "id": 2,
+    "name": "Kanjivaram Silk Saree",
+    "category": "Saree",
+    "price": 6500,
+    "quantity": 8,
+    "image": "https://i.ibb.co.com/kVTVmPjg/image.png",
+    "color": "Royal Blue",
+    "rating": 4.7,
+    "description": "Gorgeous Kanjivaram silk saree with rich border and pallu design."
+  },
+  {
+    "id": 3,
+    "name": "Cotton Printed Saree",
+    "category": "Saree",
+    "price": 1200,
+    "quantity": 25,
+    "image": "https://i.ibb.co.com/TqWbSnby/image.png",
+    "color": "Yellow",
+    "rating": 4.5,
+    "description": "Comfortable 100% pure cotton printed saree for daily summer wear."
+  },
+  {
+    "id": 4,
+    "name": "Banarasi Katan Saree",
+    "category": "Saree",
+    "price": 8500,
+    "quantity": 5,
+    "image": "https://i.ibb.co.com/zVL5Z5pH/image.png",
+    "color": "Maroon",
+    "rating": 4.9,
+    "description": "Premium Banarasi Katan saree designed for bridal and grand occasions."
+  },
+  {
+    "id": 5,
+    "name": "Georgette Embroidered Saree",
+    "category": "Saree",
+    "price": 3200,
+    "quantity": 12,
+    "image": "https://i.ibb.co.com/Pzr7q0qc/image.png",
+    "color": "Pink",
+    "rating": 4.4,
+    "description": "Lightweight georgette saree featuring intricate embroidery work."
+  },
+  {
+    "id": 6,
+    "name": "Half Silk Block Print Saree",
+    "category": "Saree",
+    "price": 2200,
+    "quantity": 18,
+    "image": "https://i.ibb.co.com/B2rkz2yS/image.png",
+    "color": "Green",
+    "rating": 4.6,
+    "description": "Attractive half silk saree styled with traditional hand block prints."
+  },
+
+  {
+    "id": 7,
+    "name": "Unstitched Cotton Three-Piece",
+    "category": "Jama",
+    "price": 1850,
+    "quantity": 20,
+    "image": "https://i.ibb.co.com/Y7X6XpGd/image.png",
+    "color": "Multicolor",
+    "rating": 4.6,
+    "description": "Premium quality soft cotton three-piece with detailed embroidery."
+  },
+  {
+    "id": 8,
+    "name": "Silk Anarkali Gown",
+    "category": "Jama",
+    "price": 4200,
+    "quantity": 10,
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+    "color": "Navy Blue",
+    "rating": 4.8,
+    "description": "https://i.ibb.co.com/zV2XsS86/image.png"
+  },
+  {
+    "id": 9,
+    "name": "Designer Stitched Kurti",
+    "category": "Jama",
+    "price": 1250,
+    "quantity": 30,
+    "image": "https://i.ibb.co.com/Q3Mh3vyx/image.png",
+    "color": "White",
+    "rating": 4.3,
+    "description": "Stylish and comfortable stitched kurti perfect for casual outings."
+  },
+  {
+    "id": 10,
+    "name": "Georgette Long Kameez",
+    "category": "Jama",
+    "price": 2800,
+    "quantity": 14,
+    "image": "https://i.ibb.co.com/1th7WjsV/image.png",
+    "color": "Purple",
+    "rating": 4.5,
+    "description": "Fancy heavy-work georgette long kameez set with attached inner."
+  },
+  {
+    "id": 11,
+    "name": "Readymade Two-Piece Set",
+    "category": "Jama",
+    "price": 1600,
+    "quantity": 22,
+    "image": "https://i.ibb.co.com/Y7HgdjSS/image.png",
+    "color": "Off-White",
+    "rating": 4.4,
+    "description": "Elegant readymade two-piece featuring a top and matching trousers."
+  },
+  {
+    "id": 12,
+    "name": "Bridal Party Lehenga",
+    "category": "Jama",
+    "price": 9500,
+    "quantity": 4,
+    "image": "https://i.ibb.co.com/tMgL0kNs/image.png",
+    "color": "Maroon",
+    "rating": 4.9,
+    "description": "Exclusive bridal lehenga set crafted with heavy embellishments."
+  },
+
+  {
+    "id": 13,
+    "name": "Gold Plated Necklace Set",
+    "category": "Jewelry",
+    "price": 1500,
+    "quantity": 25,
+    "image": "https://i.ibb.co.com/nsxH422w/image.png",
+    "color": "Golden",
+    "rating": 4.7,
+    "description": "1 gram gold-plated necklace set coming with matching earrings."
+  },
+  {
+    "id": 14,
+    "name": "Kundan Bridal Jewelry Set",
+    "category": "Jewelry",
+    "price": 3500,
+    "quantity": 8,
+    "image": "https://i.ibb.co.com/21pxL9p0/image.png",
+    "color": "Multicolor",
+    "rating": 4.9,
+    "description": "Traditional Rajasthani style Kundan stone studded bridal set."
+  },
+  {
+    "id": 15,
+    "name": "Pearl Bracelet and Ring",
+    "category": "Jewelry",
+    "price": 850,
+    "quantity": 30,
+    "image": "https://i.ibb.co.com/XrR5268H/image.png",
+    "color": "White",
+    "rating": 4.4,
+    "description": "Elegant cultured pearl bracelet paired with a stylish ring."
+  },
+  {
+    "id": 16,
+    "name": "Oxidized Jhumka Earrings",
+    "category": "Jewelry",
+    "price": 450,
+    "quantity": 50,
+    "image": "https://i.ibb.co.com/tTrwBR4M/image.png",
+    "color": "Silver",
+    "rating": 4.5,
+    "description": "Vintage silver oxidized jhumkas tailored to pair with sarees."
+  },
+  {
+    "id": 17,
+    "name": "Traditional Metal Bangle Set",
+    "category": "Jewelry",
+    "price": 650,
+    "quantity": 40,
+    "image": "https://i.ibb.co.com/DHLpbYzf/image.png",
+    "color": "Gold-Red",
+    "rating": 4.6,
+    "description": "Set of 24 glass and metal bangles for festivals and events."
+  },
+  {
+    "id": 18,
+    "name": "Diamond Cut Adjustable Ring",
+    "category": "Jewelry",
+    "price": 1200,
+    "quantity": 20,
+    "image": "https://i.ibb.co.com/YFrfKqWn/image.png",
+    "color": "Shiny Silver",
+    "rating": 4.8,
+    "description": "Adjustable finger ring studded with high-grade AD stones."
+  },
+
+  {
+    "id": 19,
+    "name": "Women's Party High Heels",
+    "category": "Shoes",
+    "price": 2400,
+    "quantity": 12,
+    "image": "https://i.ibb.co.com/7dXJcYQy/image.png",
+    "color": "Black",
+    "rating": 4.6,
+    "description": "3-inch pointed toe party heels with a comfortable cushioned sole."
+  },
+  {
+    "id": 20,
+    "name": "Casual Flat Sandals",
+    "category": "Shoes",
+    "price": 950,
+    "quantity": 35,
+    "image": "https://i.ibb.co.com/fdp9bb84/image.png",
+    "color": "Brown",
+    "rating": 4.3,
+    "description": "Durable and comfortable flat sandals designed for daily use."
+  },
+  {
+    "id": 21,
+    "name": "Short Boots",
+    "category": "Shoes",
+    "price": 3800,
+    "quantity": 15,
+    "image": "https://i.ibb.co.com/F4FMTjNZ/image.png",
+    "color": "Tan Brown",
+    "rating": 4.8,
+    "description": "Formal and semi-formal loafers crafted from 100% genuine leather."
+  },
+  {
+    "id": 22,
+    "name": "Unisex Running Sneakers",
+    "category": "Shoes",
+    "price": 2800,
+    "quantity": 20,
+    "image": "https://i.ibb.co.com/3YMFSNpP/image.png",
+    "color": "Red-Black",
+    "rating": 4.7,
+    "description": "Lightweight and breathable sneakers built for sports and running."
+  },
+  {
+    "id": 23,
+    "name": "Traditional Embroidered Nagra",
+    "category": "Shoes",
+    "price": 1600,
+    "quantity": 18,
+    "image": "https://i.ibb.co.com/jZPX80Q1/image.png",
+    "color": "Golden",
+    "rating": 4.5,
+    "description": "Embroidered Nagra shoes ideal for pairing with Punjabi sets."
+  },
+  {
+    "id": 24,
+    "name": "Women's Slip-On Shoes",
+    "category": "Shoes",
+    "price": 1400,
+    "quantity": 22,
+    "image": "https://i.ibb.co.com/XrL3h8k4/image.png",
+    "color": "Grey",
+    "rating": 4.4,
+    "description": "Easy-to-wear soft padded casual slip-on shoes."
+  },
+
+  {
+    "id": 25,
+    "name": "Baby Girl Party Frock",
+    "category": "Kids",
+    "price": 1600,
+    "quantity": 15,
+    "image": "https://i.ibb.co.com/7tJySHk8/image.png",
+    "color": "Pink",
+    "rating": 4.8,
+    "description": "Soft tulle gown frock suitable for birthday parties and events."
+  },
+  {
+    "id": 26,
+    "name": "Girls Cotton Panjabi Set",
+    "category": "Kids",
+    "price": 1350,
+    "quantity": 25,
+    "image": "https://i.ibb.co.com/WvXVHDcB/image.png",
+    "color": "White-Yellow",
+    "rating": 4.7,
+    "description": "100% cotton Panjabi and pajama set for kids."
+  },
+  {
+    "id": 27,
+    "name": "Kids T-Shirt and Shorts",
+    "category": "Kids",
+    "price": 650,
+    "quantity": 40,
+    "image": "https://i.ibb.co.com/F4fzym6s/image.png",
+    "color": "Blue",
+    "rating": 4.5,
+    "description": "Cartoon printed soft cotton summer outfit for toddlers."
+  },
+  {
+    "id": 28,
+    "name": "Baby Girls Blazer Suit Set",
+    "category": "Kids",
+    "price": 2500,
+    "quantity": 10,
+    "image": "https://i.ibb.co.com/21TkM6M6/image.png",
+    "color": "Black-White",
+    "rating": 4.9,
+    "description": "Complete suit set including shirt, pants, blazer, and bow-tie."
+  },
+  {
+    "id": 29,
+    "name": "Kids Denim Jacket Set",
+    "category": "Kids",
+    "price": 1950,
+    "quantity": 12,
+    "image": "https://i.ibb.co.com/cKcd21VY/image.png",
+    "color": "Blue Denim",
+    "rating": 4.6,
+    "description": "Stylish and flexible denim jacket and pants combo."
+  },
+  {
+    "id": 30,
+    "name": "Girls Floral Summer Dress",
+    "category": "Kids",
+    "price": 850,
+    "quantity": 30,
+    "image": "https://i.ibb.co.com/TqKX5MNz/image.png",
+    "color": "Red Floral",
+    "rating": 4.4,
+    "description": "Light and comfortable cotton floral dress for ages 1-5."
+  }
+]
