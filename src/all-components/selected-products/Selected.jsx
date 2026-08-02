@@ -1,6 +1,6 @@
  
 
-const Selected = ({ selectedProduct, setShowSelected }) => {
+const Selected = ({ selectedProduct, setShowSelected, handelRemoveProduct }) => {
     return (
         <div>
             {
@@ -16,10 +16,18 @@ const Selected = ({ selectedProduct, setShowSelected }) => {
                             <div>
                                 <h3 className="font-bold">{sp.name}</h3>
                                 <p className="text-gray-500">{sp.price}</p>
+
                             </div>
+                               <button
+                                    onClick={() => handelRemoveProduct(sp.id)}
+                                    className="px-8 py-3 ml-70 font-semibold rounded-2xl border border-indigo-500 text-black">Remove Product
+                                </button>
+
                         </div>))
+                        
                 )
             }
+             
         </div>
     );
 };

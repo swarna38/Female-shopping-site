@@ -34,6 +34,18 @@ function App() {
         alert(`${product.name} is successfully added`);
     }
 
+    const handelRemoveProduct = id => {
+      const productToRemove = selectedProduct.find(p => p.id === id) ;
+      const updateSelectedProduct = selectedProduct.filter(p => p.id !== id);
+      setSelectedProduct(updateSelectedProduct);
+
+
+      if(productToRemove){
+        setCoins(coins + productToRemove.price);
+      }
+
+    }
+
 
   return (
     <>
@@ -45,6 +57,7 @@ function App() {
         handelSelectedProduct={handelSelectedProduct}
         showSelected={showSelected}
         setShowSelected={setShowSelected}
+        handelRemoveProduct={handelRemoveProduct}
         ></Products>
               
     </>

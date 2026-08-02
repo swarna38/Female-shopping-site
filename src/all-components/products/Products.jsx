@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Product from "../Product/Product";
 import Selected from "../selected-products/Selected";
 
-const Products = ({ handelSelectedProduct, selectedProduct, showSelected, setShowSelected }) => {
+const Products = ({ handelSelectedProduct, selectedProduct, showSelected, setShowSelected, handelRemoveProduct }) => {
     //all product
     const [products, setProducts] = useState([]);
      useEffect(() => {
@@ -102,7 +102,7 @@ const Products = ({ handelSelectedProduct, selectedProduct, showSelected, setSho
                 }
                </div>
              ): (
-                <Selected selectedProduct = {selectedProduct} setShowSelected ={setShowSelected}  ></Selected>
+                <Selected selectedProduct = {selectedProduct} setShowSelected ={setShowSelected} handelRemoveProduct={handelRemoveProduct} ></Selected>
              )}
         </div>
     );
