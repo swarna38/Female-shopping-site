@@ -1,5 +1,5 @@
 import { FaStar } from "react-icons/fa"; 
-const Product = ({product}) => {
+const Product = ({ product, handelSelectedProduct }) => {
     const {name, category, price, quantity, image, rating, description} = product;
     return (
          <div className="border border-gray-200 rounded-2xl p-4 shadow-sm bg-white space-y-3">
@@ -22,7 +22,9 @@ const Product = ({product}) => {
                         </div>
                     </div>
                     <p className="text-gray-600 font-medium">Description: {description}</p>
-                   <button className="px-9 py-2 rounded-lg border border-indigo-500 text-black font-semibold tracking-wider hover:bg-indigo-500 hover:text-white transition duration-300">
+                   <button 
+                   onClick={() => handelSelectedProduct(product)}
+                   className="px-9 py-2 rounded-lg border border-indigo-500 text-black font-semibold tracking-wider hover:bg-indigo-500 hover:text-white transition duration-300">
                         Purchase
                     </button>          
         </div>
